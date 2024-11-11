@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+}
+h1, h2, h3{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    max-height: 300px;
+}
+.wrapper{
+    max-width: 960px;
+    background-color: #FDFBF5;
+}
+.site-info{
+    text-align: center;
+    color: #B77352;
+    margin: 20px;
+    line-height: 2.5;
+}
+.site-info h1{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.site-info p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    background-color: #8CB9BD;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+.navbar ul{
+    display: flex;
+    /* gap: 15px; */
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.navbar ul li a:hover{
+    background-color: #FDFBF5;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+.main{
+    display: flex;
+}
+.sidebar{
+    width: 30%;
+    background-color: #ECB15A;
+    padding: 20px;
+    color: white;
+}
+.sidebar h2{
+    font-size: 2rem;
+}
+.sidebar img{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.sidebar h3{
+    margin-top: 10px;
+}
+.sidebar section:last-of-type img{
+    width: 20px;
+    margin-top: 10px;
+}
+.main-content{
+    padding: 20px;
+    width: 70%;
+}
+.main-content h2{
+    font-size: 2rem;
+    color: #B77352;
+    margin-bottom: 10px;
+}
+.main-content h5{
+    color: #8CB9BD;
+    font-style: italic;
+}
+.main-content article {
+    margin-bottom: 20px; 
+}
+.main-content article h2 {
+    margin-top: 20px; 
+}
+.main-content article img{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.main-content article:first-of-type img{
+    width: 200px;
+    float: left;
+}
+.main-content article:last-of-type img{
+    width: 200px;
+    float: left;
+}
+.main-content p{
+    font-size: 19px;
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ECB15A;
+    margin-top: 5px;
+}
+footer p{
+    color: #B77352;
+    margin: 15px;
+    font-weight: bold;
+    font-style: italic;
+}

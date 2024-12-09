@@ -36,7 +36,7 @@ header{
     background-color: #8CB9BD;
     height: 40px;
     align-items: center;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 .navbar ul{
     display: flex;
@@ -124,4 +124,43 @@ footer p{
     margin: 15px;
     font-weight: bold;
     font-style: italic;
+}
+
+.navbar ul li .menu-child {
+    display: none;
+    position: absolute;
+    background-color: #768587;
+    margin-top: 12px;
+}
+
+.navbar ul li:hover .menu-child {
+    display: block;
+}
+.menu-child li a {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar{
+        display: none;
+    }
+    .main .main-content{
+        width: 100%;
+        background-color: #FDFBF5;
+    }
+    .main .main-content article h2{
+        color: black !important;
+    }
+    .main-content article img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .main .main-content article img {
+        float: right;
+    }
+    nav>ul{
+        display: none !important;
+    }
 }
